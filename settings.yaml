@@ -2,16 +2,56 @@ mysql:
   host: 127.0.0.1
   port: 3306
   db: gvb_db
+  config: ""
   user: root
-  password: 123456
+  password: "123456"
   log_level: dev
 logger:
   level: info
   prefix: '[gvb]'
   director: log
-  show-line: true
-  log-in-console: true
+  show_line: false
 system:
-  host: "0.0.0.0"
+  host: 0.0.0.0
   port: 8080
   env: release
+site_info:
+  create_at: "2023-03-06"
+  bei_an: 蒙123
+  title: 王恒的个人博客
+  qq_image: xxx
+  version: 1.0.0
+  email: 2050641814@qq.com
+  wechat_image: xxx
+  name: 个人博客
+  job: 后端开发
+  addr: 湖北武汉
+  slogan: 个人博客
+  slogan_en: GERENBLOG
+  web: xxx
+  bilibili_url: xxx
+  gitee_url: xxx
+  github_url: xxx
+jwt:
+  secret: xx
+  expires: 48
+  issuer: xx
+qq:
+  app_id: "xx"
+  key: xx
+  redirect: http://xx.xx.com/login?flag=qq
+email:
+  host: smtp.qq.com
+  port: 465
+  user: xxx@qq.com
+  password: xxx
+  default_from_email: 枫枫知道
+  use_ssl: xx
+  user_tls: xx
+qi_niu:
+  access_key: UMM-xx-FdRIf-xx
+  secret_key:  xx
+  bucket: fengfengzhidao
+  cdn: xx://xx.xx.com/
+  zone: xx
+  size: xx

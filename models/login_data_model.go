@@ -1,6 +1,6 @@
 package models
 
-//统计用户登录数据id，用户id，用户昵称，用户token，登录设备，登录时间
+// LoginDataModel 统计用户登录数据id，用户id，用户昵称，用户token，登录设备，登录时间 登录信息表
 type LoginDataModel struct {
 	MODEL
 	UserID    uint      `json:"user_id"`
